@@ -14,8 +14,8 @@ public class Main : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (t.CurrentStatus == TrackableBehaviour.Status.DETECTED) {
-            obj.GetComponent<zombieStatusControl>().reduceHealth();
+        if (t.CurrentStatus != TrackableBehaviour.Status.DETECTED) {
+            //pause
         }
        
 	}

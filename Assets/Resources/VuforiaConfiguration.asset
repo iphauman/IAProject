@@ -45,7 +45,6 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - StonesAndChips
-    - Tarmac
     dataSetsToActivate:
     - StonesAndChips
   videoBackground:

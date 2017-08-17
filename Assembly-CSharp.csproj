@@ -66,9 +66,7 @@
      <Compile Include="Assets\EnemyHP.cs" />
      <Compile Include="Assets\enemyMove.cs" />
      <Compile Include="Assets\FacingPlayer.cs" />
-     <Compile Include="Assets\healthBarController.cs" />
      <Compile Include="Assets\Helica\PM-40\Prefabs\gunMovementController.cs" />
-     <Compile Include="Assets\Helica\PM-40\Prefabs\gunSoundScript.cs" />
      <Compile Include="Assets\Main.cs" />
      <Compile Include="Assets\Scripts\_startMenu.cs" />
      <Compile Include="Assets\Scripts\ARVRAboutManager.cs" />

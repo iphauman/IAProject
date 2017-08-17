@@ -65,8 +65,7 @@ public class ViewTrigger : MonoBehaviour
             {
                 mTriggered = true;
                 mFocusedTime = 0;
-
-                triggerEvent.Invoke();
+                
 
                 /*
                 // Activate transition from AR to VR or vice versa

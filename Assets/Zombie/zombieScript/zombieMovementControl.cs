@@ -10,6 +10,7 @@ public class zombieMovementControl : MonoBehaviour {
     public float distance = 0.2f;    //determine the attack action when the zombie closed to player
     public float speed = 0.05f;
     public Canvas healthBar;
+    
 
     /*----------------------------------------------------------------------------------------------------------------------------*/
 
@@ -21,7 +22,7 @@ public class zombieMovementControl : MonoBehaviour {
 	void Update ()
     {
         
-        if (zombieStatusControl.health > 0)
+        if (this.GetComponent<zombieStatusControl>().health > 0)
         {
             Vector3 direction = target.position - this.transform.position;
             healthBar.transform.rotation = Quaternion.Slerp(healthBar.transform.rotation, Quaternion.LookRotation(direction), 0.1f);

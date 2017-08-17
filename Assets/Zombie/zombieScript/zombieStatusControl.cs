@@ -1,26 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class zombieStatusControl : MonoBehaviour {
 
-    public int healthAttr = 100;
-    public static int health = 100;
-    
-    public GameObject obj;
+    public int health = 100;
 
-    
+    [Header("Unity Stuff")]
+    public Image healthBar;
+
 
     void Start ()
     {
-        
+
 	}
 
     void Update()
     {
-        health = healthAttr;
+        healthBar.fillAmount = health / 100f;
     }
-
-    
 }

@@ -19,8 +19,8 @@ public class buttonScript : MonoBehaviour, IVirtualButtonEventHandler{
 	}
 
 	public void OnButtonPressed (VirtualButtonAbstractBehaviour vb) {
-		taget.GetComponent<zombieStatusControl> ().reduceHealth ();
-		Debug.Log("Button on.");
+        
+        Debug.Log("Button on.");
 	}
 
 	public void OnButtonReleased (VirtualButtonAbstractBehaviour vb) {

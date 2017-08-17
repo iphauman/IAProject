@@ -41,7 +41,7 @@ public class ViewTrigger : MonoBehaviour
         mTriggered = false;
         mFocusedTime = 0;
         Focused = false;
-        GetComponent<Renderer>().material = nonFocusedMaterial;
+        //GetComponent<Renderer>().material = nonFocusedMaterial;
     }
 
     void Update()
@@ -65,8 +65,7 @@ public class ViewTrigger : MonoBehaviour
             {
                 mTriggered = true;
                 mFocusedTime = 0;
-
-                triggerEvent.Invoke();
+                
 
                 /*
                 // Activate transition from AR to VR or vice versa
